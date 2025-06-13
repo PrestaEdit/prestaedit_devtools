@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>prestaedit_devtools</name>
+    <displayName><![CDATA[]]></displayName>
+    <version><![CDATA[]]></version>
+    <description><![CDATA[]]></description>
+    <author><![CDATA[]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+</module>

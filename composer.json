@@ -1,0 +1,7 @@
+{
+  "name": "prestaedit/prestaedit_devtools",
+  "require-dev": {
+    "prestashop/php-dev-tools": "^3.4"
+  },
+  "type": "prestashop-module"
+}

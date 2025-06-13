@@ -1,0 +1,14 @@
+name: PHP tests
+on: [pull_request, workflow_dispatch]
+jobs:
+  # Check there is no syntax errors in the project
+  php-linter:
+    uses: prestaedit/github-actions/.github/workflows/php-linter.yml@main
+
+  # Check the PHP code follow the coding standards
+  php-cs-fixer:
+    uses: prestaedit/github-actions/.github/workflows/php-cs-fixer.yml@main
+
+  # Run PHPStan against the module and a PrestaShop release
+  phpstan:
+    uses: prestaedit/github-actions/.github/workflows/phpstan.yml@main
