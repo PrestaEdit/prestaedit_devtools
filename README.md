@@ -2,7 +2,8 @@
 
 Work only if your are in Debug mode.
 
-Note : with PrestaShop 9, the [debug mode](https://www.prestashop-project.org/releases/prestashop90/#developer-features) could be isolated with a cookie value. Good to use !
+> [!TIP]
+> PrestaShop 9 allows you to set [debug mode](https://www.prestashop-project.org/releases/prestashop90/#developer-features) with a cookie value.
 
 ## Modifier : debug
 
